@@ -1,0 +1,167 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 398px;
+}
+
+/***** HEADER *****/
+
+header h1 {
+  color: #77a466;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#second-title-word {
+  color: black;
+}
+
+nav {
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+nav ul li {
+  color: #77a466;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+header img {
+  border-top: 4px solid #77a466;
+  border-bottom: 4px solid #77a466;
+}
+
+/***** ABOUT *****/
+
+#about h2 {
+  color: #77a466;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
+div.horizontal-line {
+  background-color: #DCDCDC;
+  float: left;
+  height: 2px;
+  margin-left: 65px;
+  width: 1200px;
+}
+
+/***** SPECIALS *****/
+
+#specials h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+#specials ul li {
+  color: #77a466;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 35px;
+  list-style-type: none;
+  margin-left: -40px;
+  padding: 0;
+}
+
+div.vertical-line {
+  background-color: #DCDCDC;
+  height: 200px;
+  width: 3px;
+  float: left;
+
+}
+
+/*****REVIEWS*****/
+
+
+#reviews h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-left: 25px;
+  text-transform: uppercase;
+}
+
+#reviews p {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 25px;
+  padding-right: 35px;
+}
+
+/***** CONTACT *****/
+
+#contact h3 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 25px;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+#contact p {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 25px;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear: both;
+  padding-top: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  align: center;
+}
+
+#footer-emphasis {
+  color: #77a466;
+  text-transform: lowercase;
+  font-family: 'Rochester', cursive;
+  font-size: 20px;
+  font-style: italic;
+}
